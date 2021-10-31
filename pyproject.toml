@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "overpass-exploration"
+version = "0.1.0"
+description = "Snippets written while learning the OSM Overpass API"
+authors = ["Piotr Zakrzewski <1050269+PiotrZakrzewski@users.noreply.github.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+jupyter = "^1.0.0"
+requests = "^2.26.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2.5"
+black = "^21.9b0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
